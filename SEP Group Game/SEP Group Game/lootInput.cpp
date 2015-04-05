@@ -1,6 +1,6 @@
 #include "lootData.h"
 
-void fileIO()
+int fileIO()
 {
-
+	return 0;
 }
