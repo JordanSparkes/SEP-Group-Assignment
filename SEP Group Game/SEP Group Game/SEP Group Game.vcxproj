@@ -11,11 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lootInput.cpp" />
+    <ClCompile Include="lootData.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lootData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="damageData.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CC907161-0C1E-438B-9D09-3E1C6061CE16}</ProjectGuid>
