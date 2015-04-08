@@ -66,52 +66,52 @@ void SpriteHandler::setSpeed(int value)
 
 int SpriteHandler::getSpeed()
 {
-	return speed; //Gets the speed value.
+	return speed; //Gets the current speed value.
 }
 
 void SpriteHandler::setX(int X)
 {
-	rect.x = X;
+	rect.x = X; //Sets the X position of the sprite to the value that has been passed in.
 }
 
 void SpriteHandler::setY(int Y)
 {
-	rect.y = Y;
+	rect.y = Y; //Sets the Y position of the sprite to the value that has been passed in.
 }
 
 int SpriteHandler::getX()
 {
-	return rect.x;
+	return rect.x; //Gets the current X position value.
 }
 
 int SpriteHandler::getY()
 {
-	return rect.y;
+	return rect.y; //Gets the current Y position value.
 }
 
 void SpriteHandler::setWidth(int W)
 {
-	rect.w = W;
+	rect.w = W; //Sets the Width of the sprites frame.
 }
 
 void SpriteHandler::setHeight(int H)
 {
-	rect.h = H;
+	rect.h = H; //Sets the height of the sprites frame.
 }
 
 int SpriteHandler::getWidth()
 {
-	return rect.w;
+	return rect.w; //Gets the Width of the sprites frame.
 }
 
 int SpriteHandler::getHeight()
 {
-	return rect.h;
+	return rect.h; //Gets the height of the sprites frame.
 }
 
 float SpriteHandler::getCenter() //The contents of this function are very temporary.
 {
-	return rect.x+(rect.w/2.0f);
+	return rect.x+(rect.w/2.0f); //Move these into the sprites creation code to save processing power.
 	return rect.y+(rect.h/2.0f);
 }
 
@@ -131,7 +131,7 @@ SDL_Rect* SpriteHandler::loadSprites(const int quant, const int offset, const in
 
 bool SpriteHandler::windowBorders()
 {
-	if(rect.y > 0 && (rect.y + rect.h) < game::Height && rect.x > 0 && (rect.x + rect.w) < game::Width) //If the sprite is within all 4 borders, do nothing. This if statement comes first to save on processing power.
+	if(rect.y > 0 && (rect.y + rect.h) < game::Height && rect.x > 0 && (rect.x + rect.w) < game::Width) //If the sprite is within all 4 borders, do nothing. This if statement comes first to save on processing power. Currently broken: Needs framework code - Might make a rough temporary copy.
 		return false;
 	else //Else, check if corners are being breached. If so, "move the screen" to reveal more of the map and stuff.
 	{
