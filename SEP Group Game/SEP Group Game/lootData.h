@@ -7,10 +7,9 @@
 #include <string>
 using namespace std;
 
-/*int lootID;
-int lootDamage;
-int lootDefence;*/
-
 int damageDataIO();
 int defenceDataIO();
 int lootModifiers();
+void defenceItems();
+
+//int lootDefence[] = { 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100 };

@@ -3,6 +3,7 @@
 int main()
 {
 	defenceDataIO();
-	damageDataIO();
+	//damageDataIO();
+	//lootModifiers();
 	return 0;
 }

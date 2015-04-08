@@ -31,5 +31,8 @@
     <Text Include="damageData.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="defenceData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
