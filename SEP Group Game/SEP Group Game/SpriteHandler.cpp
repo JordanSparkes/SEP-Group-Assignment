@@ -23,7 +23,7 @@ SDL_Surface* SpriteHandler::loadImage(char* dir)
 
 	if(original !=NULL) //If the image is not null (most likely case comes first).
 	{
-		optimized = SDL_DisplayFormat(original); //Optimize the image for SDL to use)
+		optimized = SDL_DisplayFormat(original); //Optimize the image for SDL to use. I don't know what the difference between this and SDL_ConvertSurface is but apparantly DisplayFormat is better or does more.
 		
 		SDL_FreeSurface(original); //Remove the original unoptimized image from memory.
 	}

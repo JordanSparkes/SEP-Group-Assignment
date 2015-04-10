@@ -21,20 +21,20 @@ void Spawner::spawn(TestEnemy* addEnemy)
 {
 	if(enemyAmount < maxEnemies) //If there is space in the array...
 	{
-		enemies[enemyAmount] = addEnemy; //Create a new enemy at the first free array slot, tracked by enemyAmount.
+		//Broken. Halp??? //enemies[enemyAmount] = addEnemy; //Create a new enemy at the first free array slot, tracked by enemyAmount.
 		enemyAmount++; //Add to the amount value as  an enemy has been created. This will now select the next array slot when the next enemy spawns.
 	}
 	else
 		printf("Spawn ignored, Maximum enemies reached.");
 }
 
-void Spawner::blit(SDL_Surface* screen)
+void Spawner::blit(SDL_Surface* window)
 {
 	if(enemyAmount > 0) //This check is purely there to save on processing power so we don't need to try to draw if there's nothing to draw.
 	{
 		for(int i = 0; i < enemyAmount; i++) //loop through the spawner array...
 		{
-			enemies[i]->blit(screen); //Redraw each enemy to the screen.
+			enemies[i]->blit(window); //Redraw each enemy to the screen.
 		}
 	}
 }
