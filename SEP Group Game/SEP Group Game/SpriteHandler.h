@@ -35,7 +35,7 @@ public:
 
 	float getCenter(); //Function to define the center of each sprite frame. This will be a single function unless the height and width values are different.
 
-	bool windowBorders(); //Function to check if a sprite is going out of the screen. This function is temporary as the map will extend outside the window.
+	//bool windowBorders(); //Function to check if a sprite is going out of the screen. This function is temporary as the map will extend outside the window.
 
 	virtual void init(SDL_Surface* spriteSheet, SDL_Rect* position) = 0; //Virtual function to initialize sprite stuff. To be used by other classes.
 	virtual void blit(SDL_Surface* window) = 0; //Virtual function to draw sprite to screen. To be used by other classes.

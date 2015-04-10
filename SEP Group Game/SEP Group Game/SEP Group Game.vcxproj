@@ -82,11 +82,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="SDLLib.h" />
+    <ClInclude Include="Spawner.h" />
     <ClInclude Include="SpriteHandler.h" />
+    <ClInclude Include="TestEnemy.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Spawner.cpp" />
     <ClCompile Include="SpriteHandler.cpp" />
+    <ClCompile Include="TestEnemy.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

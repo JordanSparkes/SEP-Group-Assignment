@@ -129,7 +129,7 @@ SDL_Rect* SpriteHandler::loadSprites(const int quant, const int offset, const in
 	return animations;
 }
 
-bool SpriteHandler::windowBorders()
+/*bool SpriteHandler::windowBorders()
 {
 	if(rect.y > 0 && (rect.y + rect.h) < game::Height && rect.x > 0 && (rect.x + rect.w) < game::Width) //If the sprite is within all 4 borders, do nothing. This if statement comes first to save on processing power. Currently broken: Needs framework code - Might make a rough temporary copy.
 		return false;
@@ -137,4 +137,4 @@ bool SpriteHandler::windowBorders()
 	{
 		//Do this later. As we are checking all 4 sides in one function (may be unoptimized, do some testing later), turn the if statements into a case statement to save space and neaten code.
 	}
-}
+}*/
