@@ -8,7 +8,7 @@ class TestEnemy : public SpriteHandler //Class of enemy, inherits from SpriteHan
 {
 private:
 	int health; //Variable for amount of health.
-	static const int maxHealth; //variable to define health limit. Necessary? Could just use hard-coded values.
+	int maxHealth; //variable to define health limit. Necessary? Could just use hard-coded values.
 	int damage; //Variable for amount of damage an attack will cause.
 	int speed; //Variable to judge enemies speed.
 	bool attack; //True/false to determine whether enemy will attack or not. Might not be needed.
@@ -27,7 +27,7 @@ protected:
 
 public:
 	TestEnemy(void);
-	~TestEnemy(void);
+	~TestEnemy(void); //Destructor not virtual as we do not want SpriteHandler to be destroyed when an enemy is destroyed. Is this right? Consult group.
 
 	static const int size = 100; //Width and height of each frame. They're square for now so only one value is needed and is static constant because it will never change.
 
@@ -42,6 +42,9 @@ public:
 	void avoidWalls(); //Function to do AI. Unused in the test enemy. Does this need to be in private?
 	void track(); //Function to follow player. Unused in the test enemy. Does this need to be in private?
 	void doAttack(); //Function to handle attacks. Unused in the test enemy. Does this need to be in private?
+
+	int getHealth();
+	void reduceHealth(int);
 
 	void update(float scalar); //Update method to update enemy information when called.
 	void init(SDL_Surface* spriteSheet, SDL_Rect* position); //Init method to initialize enemy information.
