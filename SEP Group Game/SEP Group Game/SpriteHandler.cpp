@@ -2,7 +2,8 @@
 
 SpriteHandler::SpriteHandler(void)
 {
-	speed = 0; //Set the speed to 0 for the constructor.
+	xSpeed = 0; //Set the speed to 0 for the constructor.
+	ySpeed = 0;
 
 	spriteSheet = NULL; //set the pointers to null for the constructor.
 }
@@ -61,12 +62,18 @@ SDL_Surface* SpriteHandler::loadImage(char* dir, Uint8 r, Uint8 g, Uint8 b)
 
 void SpriteHandler::setSpeed(int value)
 {
-	speed = value; //Sets the speed to the value that has been passed in.
+	xSpeed = value; //Sets the speed to the value that has been passed in.
+	ySpeed = value;
 }
 
-int SpriteHandler::getSpeed()
+int SpriteHandler::getXSpeed()
 {
-	return speed; //Gets the current speed value.
+	return xSpeed; //Gets the current speed value.
+}
+
+int SpriteHandler::getYSpeed()
+{
+	return ySpeed; //Gets the current speed value.
 }
 
 void SpriteHandler::setX(int X)

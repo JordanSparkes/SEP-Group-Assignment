@@ -10,7 +10,8 @@ protected:
 	SDL_Rect* loadSprites(const int quant, const int offset, const int width, const int height); //function to define the sprite animations to load. quant is amount of frames, offset is which animation to load, width and height are the size of each frame;
 	SDL_Surface* spriteSheet; //Pointer to the sprite sheet.
 
-	int speed; //Value for movement speed of sprite. This may have to move into public later.
+	int xSpeed; //Value for movement speed of sprite. This will be determined by the enemy types speed and is used to actually move the sprite along an axis.
+	int ySpeed;
 
 public:
 	SpriteHandler(void); //Constructor
@@ -20,7 +21,8 @@ public:
 	static SDL_Surface* loadImage(char* dir, Uint8 r, Uint8 g, Uint8 b); //Overloaded static funtion to load and optimize an image from file, using a defined RGB value as an ignore colour.
 
 	void setSpeed(int); //Function to set the speed value.
-	int getSpeed(); //Function to retreive the speed value.
+	int getXSpeed(); //Function to retreive the speed value.
+	int getYSpeed();
 
 	void setX(int); //Function to change X position of sprite.
 	void setY(int); //Function to change Y position of sprite.
