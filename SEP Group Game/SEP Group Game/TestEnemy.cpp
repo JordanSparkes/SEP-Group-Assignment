@@ -104,7 +104,35 @@ void TestEnemy::chooseEnemy()
 
 void TestEnemy::update(float scalar)
 {
-
+	switch(currentAnimation) //Another case statement is used as tbhe animation length may differ. if they dont in the final we will only need one case, shortening the code completely.
+	{
+	case Up:
+	if(currentFrame < upFrameAmount) //If the current frame is less than the final frame...
+		currentFrame++; //switch to the next frame;
+	else
+		currentFrame = 0; //go back to the first frame, looping the animation.
+	break;
+	case Down:
+	if(currentFrame < downFrameAmount) //If the current frame is less than the final frame...
+		currentFrame++; //switch to the next frame;
+	else
+		currentFrame = 0; //go back to the first frame, looping the animation.
+	break;
+	case Left:
+	if(currentFrame < leftFrameAmount) //If the current frame is less than the final frame...
+		currentFrame++; //switch to the next frame;
+	else
+		currentFrame = 0; //go back to the first frame, looping the animation.
+	break;
+	case Right:
+	if(currentFrame < rightFrameAmount) //If the current frame is less than the final frame...
+		currentFrame++; //switch to the next frame;
+	else
+		currentFrame = 0; //go back to the first frame, looping the animation.
+	break;
+	default:
+		printf("Error: Failed to update enemies animation.");
+	}
 }
 
 void TestEnemy::reduceHealth(int reduction)
