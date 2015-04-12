@@ -118,8 +118,8 @@ int SpriteHandler::getHeight()
 
 float SpriteHandler::getCenter() //The contents of this function are very temporary.
 {
-	return rect.x+(rect.w/2.0f); //Move these into the sprites creation code to save processing power.
-	return rect.y+(rect.h/2.0f);
+	return /*centerX;*/rect.x+(rect.w/2.0f); //Move these into the sprites creation code to save processing power.
+	return /*centerY;*/rect.y+(rect.h/2.0f);
 }
 
 SDL_Rect* SpriteHandler::loadSprites(const int quant, const int offset, const int width, const int height)

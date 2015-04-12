@@ -21,7 +21,7 @@ void Spawner::spawn(TestEnemy* addEnemy)
 {
 	if(enemyAmount < maxEnemies) //If there is space in the array...
 	{
-		//Broken. Halp??? //enemies[enemyAmount] = addEnemy; //Create a new enemy at the first free array slot, tracked by enemyAmount.
+		/*Broken. Halp???*/ //enemies[enemyAmount] = addEnemy; //Create a new enemy at the first free array slot, tracked by enemyAmount.
 		enemyAmount++; //Add to the amount value as  an enemy has been created. This will now select the next array slot when the next enemy spawns.
 	}
 	else
