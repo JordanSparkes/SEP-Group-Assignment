@@ -15,8 +15,9 @@ Create Sprite Sheets|Low|The art side of the project, must create each frame of 
 Create Variables|Low|This is the gameplay aspect of the enemies programming. Variables include health, damage, attack timers etc. They are essential but not a priority.
 
 ####Notes:
-- Use Rebase command more to take updates from master rather than pulling from the master and switching branches.
+- Use rebase/merge command more to take updates from master rather than pulling from the master and switching branches.
 - Collab with Mikey for Sprite Handler stuff so he can work with collision detection and player too.
 - Work with Jordan on framework stuff so we can both get an idea of how things can be put together.
 - Work with Jordan for UI stuff. Necessary?
 - Work with Rhys for fair loot values against enemies. Necessary?
+- Stop adding everything as inconsistencies in the binary files are a pain in the ass for something so flexible. Push only the files you edit.
