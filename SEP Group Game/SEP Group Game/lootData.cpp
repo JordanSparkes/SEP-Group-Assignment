@@ -22,7 +22,7 @@ int damageDataIO()
 
 int defenceDataIO()
 {
-	FILE* file = fopen("test.txt", "r");
+	FILE* file = fopen("defenceData.txt", "r");
 	int defenceData[11];
 
 	fscanf(file, "%d", &defenceData);
@@ -39,19 +39,5 @@ int defenceDataIO()
 
 int lootModifiers()
 {
-	FILE *file = fopen("defenceData.txt", "r");
-	int integers[100];
-
-	int i = 0;
-	int num;
-	while (fscanf(file, "%d", &num) > 0) {
-		integers[i] = num;
-		i++;
-	}
-	fclose(file);
-	for (i = 0; i < (sizeof(integers) / sizeof(integers[0])); i++)
-	{
-		printf("%lf\n", integers[i]);
-	}
 	return 0;
 }
