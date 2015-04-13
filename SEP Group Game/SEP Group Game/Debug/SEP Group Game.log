@@ -1,16 +1,16 @@
-﻿Build started 12/04/2015 18:11:20.
-     1>Project "C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 13/04/2015 17:04:35.
+     1>Project "C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp SpriteHandler.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp SpriteHandler.cpp
          SpriteHandler.cpp
          main.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib SDL.lib SDLmain.lib SDL_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.lib" /MACHINE:X86 Debug\main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib SDL.lib SDLmain.lib SDL_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.lib" /MACHINE:X86 Debug\main.obj
          Debug\SpriteHandler.obj
-         SEP Group Game.vcxproj -> C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.exe
-     1>Done Building Project "C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" (Rebuild target(s)).
+         SEP Group Game.vcxproj -> C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.exe
+     1>Done Building Project "C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.01
+Time Elapsed 00:00:00.43
