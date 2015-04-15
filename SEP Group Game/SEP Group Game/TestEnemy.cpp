@@ -3,11 +3,11 @@
 
 TestEnemy::TestEnemy() : SpriteHandler()
 {
-	currentAnimation = Stand; //Should this be here or in init?
+	currentDirection = 0; //Sets the default/initial offset to 0. This means the initial stand direction is facing downwards. We do this as this does not have a value at first.
+	currentAnimation = Stand; //Sets the default/initial animation set when the enemy spawns. We want him standing initially.
+	currentFrame = 0; //We start at the first frame of the animation.
 
-	currentFrame = 0;
-
-	upFrameAmount = 5; //I'll put these here for the test enemy but move them to init when i implement the real enemies.
+	upFrameAmount = 5; //If we do have all values as the same for each animation set then our code wil be significantly shorter.
 	downFrameAmount = 5;
 	leftFrameAmount = 5;
 	rightFrameAmount = 5;
@@ -104,6 +104,8 @@ void TestEnemy::chooseEnemy()
 
 void TestEnemy::update(float scalar)
 {
+	//currentDirection = find offset. //Will have to do a getOffset and return the current directions offset so we can pass the value here.
+
 	switch(currentAnimation) //Another case statement is used as tbhe animation length may differ. if they dont in the final we will only need one case, shortening the code completely.
 	{
 	case Up:
