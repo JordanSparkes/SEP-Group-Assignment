@@ -21,3 +21,4 @@ Create Variables|Low|This is the gameplay aspect of the enemies programming. Var
 - Work with Jordan for UI stuff. Necessary?
 - Work with Rhys for fair loot values against enemies. Necessary?
 - Stop adding everything as inconsistencies in the binary files are a pain in the ass for something so flexible. Push only the files you edit.
+- AI dependancies: Tile-based level system - Mikey [I need his method of tile based levels so I can correctly integrate them into a pathfinding code.]
