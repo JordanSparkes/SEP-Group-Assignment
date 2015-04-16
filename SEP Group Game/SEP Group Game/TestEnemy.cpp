@@ -189,7 +189,14 @@ void TestEnemy::stand()
 
 void TestEnemy::doAttack()
 {
+	static Uint32 attackTime = 0; //Set the attack time staticaly to 0.
+	currentTime = SDL_GetTicks(); //As the function is in the update it will be called every tick. This variable tracks the current time in ticks usingthe SDL function.
 
+	if(currentTime > attackTime + 400) //If current time is less than the spawn time + 400 (where 400 is our delay(placeholder value))...
+	{
+		//Do attack stuff.
+		attackTime = currentTime; //Update attackTime with currentTime so we can use it again with the next delay.
+	}
 }
 
 void TestEnemy::avoidWalls()

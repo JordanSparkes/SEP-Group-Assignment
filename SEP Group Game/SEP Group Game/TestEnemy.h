@@ -14,9 +14,9 @@ private:
 	int currentDirection; //Variable to adjust enemy standing direction.
 	bool attack; //True/false to determine whether enemy will attack or not. Might not be needed.
 
-	Uint32 a; //Unsigned 32bit ints for timers. These will be used with SDL_GetTicks and updated to create a fire rate delay. Try find my original code for this.
-	Uint32 b;
-	Uint32 c;
+	Uint32 currentTime; //Unsigned 32bit ints for timers. These will be used with SDL_GetTicks and updated to create a fire rate delay.
+	static Uint32 lastTime;
+	static Uint32 attackTime;
 
 	void move(); //Simple function to make the enemy move on it's own.
 

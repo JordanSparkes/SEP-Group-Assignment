@@ -12,9 +12,9 @@ private:
 	TestEnemy* enemies[maxEnemies]; //Array to store and limit the enemies.
 	int enemyAmount; //Value to count the current amount of enemies alive. Used for looping through the arrays (Quicker than using while loops).
 
-	Uint32 a; //Unsigned 32bit ints for timers. These will be used with SDL_GetTicks and updated to create a spawn delay. Try find my original code for this.
-	Uint32 b;
-	Uint32 c;
+	Uint32 currentTime; //Unsigned 32bit ints for timers. These will be used with SDL_GetTicks and updated to create a spawn delay.
+	static Uint32 lastTime;
+	static Uint32 spawnTime;
 
 public:
 	Spawner(void);
