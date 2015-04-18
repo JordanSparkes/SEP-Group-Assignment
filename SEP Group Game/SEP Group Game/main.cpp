@@ -3,7 +3,8 @@
 int main()
 {
 	defenceDataIO();
-	//damageDataIO();
-	//lootModifiers();
+	damageDataIO();
+	itemData();
+	lootModifiers();
 	return 0;
 }

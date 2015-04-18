@@ -7,6 +7,7 @@
 #include <string>
 using namespace std;
 
-int damageDataIO();
-int defenceDataIO();
-int lootModifiers();
+void damageDataIO();
+void defenceDataIO();
+void lootModifiers();
+void itemData();

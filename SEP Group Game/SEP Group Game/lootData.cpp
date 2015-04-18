@@ -1,43 +1,57 @@
 #include "lootData.h"
 
-int damageDataIO()
+void damageDataIO()
 {
-	int x;
-	char damageData[50];
-	ifstream damageFile;
-	cin.getline(damageData, 50);
-	damageFile.open(damageData);
-
-	if (!damageFile.is_open())
+	ifstream file("damageData.txt");
+	if (file.is_open())
 	{
-		cout << "File Open Failed" << endl;
-		return 0;
-	}
+		int damageArray[25];
 
-	while (damageFile >> x)
-	{
-		cout << x << endl;
+		for (int i = 0; i < 25; ++i)
+		{
+			file >> damageArray[i];
+			printf("%d\n", damageArray[i]);
+		}
 	}
 }
 
-int defenceDataIO()
+void defenceDataIO()
 {
-	FILE* file = fopen("defenceData.txt", "r");
-	int defenceData[11];
-
-	fscanf(file, "%d", &defenceData);
-	while (!feof(file))
+	ifstream file("defenceData.txt");
+	if (file.is_open())
 	{
-		printf("%d\n", defenceData);
-		fscanf(file, "%d", &defenceData);
+		int defenceArray[25];
+
+		for (int i = 0; i < 25; ++i)
+		{
+			file >> defenceArray[i];
+			printf("%d\n", defenceArray[i]);
+		}
 	}
-	fclose(file);
-	int Sheild = defenceData[4];
-	printf_s("Sheild defence stat = %d", &Sheild);
-	return 0;
 }
 
-int lootModifiers()
+void itemData()
 {
-	return 0;
+	ifstream file("itemData.txt");
+	if (file.is_open())
+	{
+		string itemName[25];
+
+		for (int i = 0; i < 25; ++i)
+		{
+			file >> itemName[i];
+			printf("%s\n", itemName[i]); //not sure why this returns some squiggly lines, searched it up and %s should be correct
+		}
+	}
+}
+
+void lootModifiers()
+{
+	//This will be used to judge what level the player is currently at, and the algorithm then should choose an item drop sutible for that level
+	int level; //This should be done by Jordan/Irish
+	int Difficulty[3]; //A possible feature that could be change the modifiers
+
+
+
+	
 }
