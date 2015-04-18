@@ -1,16 +1,19 @@
-﻿Build started 18/04/2015 14:09:22.
+﻿Build started 18/04/2015 14:41:41.
      1>Project "C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt lootData.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt lootData.cpp main.cpp
+         main.cpp
          lootData.cpp
      1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\lootdata.cpp(51): warning C4101: 'level' : unreferenced local variable
      1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\lootdata.cpp(52): warning C4101: 'Difficulty' : unreferenced local variable
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.lib" /MACHINE:X86 Debug\lootData.obj
          Debug\main.obj
+         LINK : C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.exe not found or not built by the last incremental link; performing full link
          SEP Group Game.vcxproj -> C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.exe
      1>Done Building Project "C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.87
+Time Elapsed 00:00:01.84
