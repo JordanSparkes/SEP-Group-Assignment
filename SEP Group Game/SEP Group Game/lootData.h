@@ -9,5 +9,5 @@ using namespace std;
 
 void damageDataIO();
 void defenceDataIO();
-void lootModifiers();
 void itemData();
+void lootModifiers();
