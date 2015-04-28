@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+﻿Build started 12/04/2015 23:03:14.
+=======
+<<<<<<< HEAD
 ﻿Build started 18/04/2015 14:09:22.
      1>Project "C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
@@ -17,6 +20,7 @@ Build succeeded.
 Time Elapsed 00:00:00.87
 =======
 ﻿Build started 08/04/2015 17:43:10.
+>>>>>>> master
      1>Project "C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
@@ -28,5 +32,9 @@ Time Elapsed 00:00:00.87
 
 Build succeeded.
 
+<<<<<<< HEAD
+Time Elapsed 00:00:06.14
+=======
 Time Elapsed 00:00:02.48
 >>>>>>> 76d3c73355998d815b8148c0df427baa562653f7
+>>>>>>> master
