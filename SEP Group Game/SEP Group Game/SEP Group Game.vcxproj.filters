@@ -15,6 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -38,4 +39,21 @@
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
+=======
+    <ClInclude Include="SDLLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+>>>>>>> 76d3c73355998d815b8148c0df427baa562653f7
 </Project>
