@@ -14,6 +14,12 @@ const int MAX_FRAMESKIP = 5;
 
 int main(int argc, char* args[])
 {
+<<<<<<< HEAD
+	damageDataIO();
+	defenceDataIO();
+	itemData();
+	lootModifiers();
+=======
 	//Start SDL
 	SDL_Init(SDL_INIT_EVERYTHING);
 	TTF_Init();
@@ -55,5 +61,6 @@ int main(int argc, char* args[])
 
 	TTF_Quit();
 	SDL_Quit();
+>>>>>>> master
 	return 0;
 }

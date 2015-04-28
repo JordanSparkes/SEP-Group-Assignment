@@ -35,7 +35,7 @@ void itemData()
 	ifstream file("itemData.txt");
 	if (file.is_open())
 	{
-		string itemName[25];
+		char itemName[25];
 
 		for (int i = 0; i < 25; ++i)
 		{
@@ -48,10 +48,23 @@ void itemData()
 void lootModifiers()
 {
 	//This will be used to judge what level the player is currently at, and the algorithm then should choose an item drop sutible for that level
-	int level; //This should be done by Jordan/Irish
+	int level = 1; //This should be done by Jordan/Irish (im assuming level is between 1 and 10
 	int Difficulty[3]; //A possible feature that could be change the modifiers
+	if (level <= 3)
+	{
+		itemData();
+		printf("%d", itemName[i]);
+	}
+	else if (level > 3 <= 5)
+	{
 
-
-
+	}
+	else if (level > 5 <= 7)
+	{
 	
+	}
+	else
+	{
+
+	}
 }
