@@ -1,3 +1,29 @@
-# Sprite handler Branch
+# SEP Assignment - 2D Dungeon Crawler
 
-##### This feature has now been put into its own seperate branch. In doing so allows collabs such as creating the Player object to use the sprite stuff via merging/pulling without also receiving the AI and enemy stuff. It also allows me to seperately merge it into the master when it's completely done
+<<<<<<< HEAD
+<<<<<<< HEAD
+####Group Details
+Student Name|Github user Name|Commit Email
+------------|----------------|------------
+Jordan|JordanSparkes|JordanSparkes@users.noreply.github.com
+Rhys|I2hys|I2hys@users.noreply.github.com
+Gary|Gary-Keen|Gary-Keen@users.noreply.github.com 
+Mikey|cleary087|cleary087@users.noreply.github.com 
+=======
+=======
+#####Workflow: Feature Branching* - The master is kept clean and every seperate feature is worked on in it's own branch. Once a feature is completed without bugs it will be reviewed  by the group for a merge into the master.
+
+####Group Details
+Student Name|Github user Name|Commit Email|Role
+------------|----------------|------------|----
+Jordan|JordanSparkes|JordanSparkes@users.noreply.github.com|UI + Framework
+Rhys|I2hys|I2hys@users.noreply.github.com|Loot + Databases
+Gary|Gary-Keen|Gary-Keen@users.noreply.github.com|AI + Sprite
+Mikey|cleary087|cleary087@users.noreply.github.com|Level + Player
+
+#####Spare roles:
+  * Spriting (Visuals)
+  * OpenAL (Audio)
+
+*The alternative workflow suggested was Continuous Integration however this was predicted to lead to too many broken builds over time which would have impeded testing of a persons respective feature.
+>>>>>>> 76d3c73355998d815b8148c0df427baa562653f7

@@ -10,6 +10,21 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+<<<<<<< HEAD
+  <ItemGroup>
+    <ClCompile Include="lootData.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lootData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="damageData.txt" />
+    <Text Include="defenceData.txt" />
+    <Text Include="itemData.txt" />
+  </ItemGroup>
+=======
+>>>>>>> 76d3c73355998d815b8148c0df427baa562653f7
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CC907161-0C1E-438B-9D09-3E1C6061CE16}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

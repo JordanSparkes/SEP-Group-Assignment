@@ -15,6 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lootData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lootData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="damageData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="defenceData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="itemData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+=======
     <ClInclude Include="SDLLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -30,4 +55,5 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+>>>>>>> 76d3c73355998d815b8148c0df427baa562653f7
 </Project>
