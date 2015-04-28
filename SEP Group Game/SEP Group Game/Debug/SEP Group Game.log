@@ -1,56 +1,27 @@
-<<<<<<< HEAD
-﻿Build started 18/04/2015 15:05:36.
-=======
-<<<<<<< HEAD
-﻿Build started 12/04/2015 23:03:14.
-=======
-<<<<<<< HEAD
-﻿Build started 18/04/2015 14:09:22.
->>>>>>> master
-     1>Project "C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" on node 2 (Build target(s)).
+﻿Build started 28/04/2015 13:04:00.
+     1>Project "F:\User Stuff\Documents\Visual Studio Projects\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt lootData.cpp main.cpp
+         F:\Tools\Microsoft Visual Studio\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt HighScore.cpp lootData.cpp main.cpp MainMenu.cpp MButton.cpp Spawner.cpp Splashscreen.cpp SpriteHandler.cpp StartScreen.cpp SystemManager.cpp TestEnemy.cpp
+         TestEnemy.cpp
+         SystemManager.cpp
+         StartScreen.cpp
+     1>f:\user stuff\documents\visual studio projects\sep group game\sep group game\startscreen.cpp(29): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         SpriteHandler.cpp
+         Splashscreen.cpp
+         Spawner.cpp
+         MButton.cpp
+         MainMenu.cpp
+     1>f:\user stuff\documents\visual studio projects\sep group game\sep group game\mainmenu.cpp(49): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
          main.cpp
-     1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\main.cpp(5): error C2065: 'damageArray' : undeclared identifier
-     1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\main.cpp(6): error C2065: 'defenceArray' : undeclared identifier
-     1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\main.cpp(7): error C2065: 'itemName' : undeclared identifier
-     1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\main.cpp(8): error C2065: 'itemName' : undeclared identifier
-     1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\main.cpp(8): error C2065: 'defenceArray' : undeclared identifier
-     1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\main.cpp(8): error C2065: 'damageArray' : undeclared identifier
-     1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\main.cpp(8): error C2065: 'i' : undeclared identifier
-         Generating Code...
-         Compiling...
          lootData.cpp
-     1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\lootdata.cpp(58): warning C4804: '<=' : unsafe use of type 'bool' in operation
-     1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\lootdata.cpp(62): warning C4804: '<=' : unsafe use of type 'bool' in operation
-     1>c:\users\fabio\documents\github\sep-group-assignment\sep group game\sep group game\lootdata.cpp(52): warning C4101: 'Difficulty' : unreferenced local variable
+     1>f:\user stuff\documents\visual studio projects\sep group game\sep group game\lootdata.cpp(57): error C2065: 'i' : undeclared identifier
+     1>f:\user stuff\documents\visual studio projects\sep group game\sep group game\lootdata.cpp(59): warning C4804: '<=' : unsafe use of type 'bool' in operation
+     1>f:\user stuff\documents\visual studio projects\sep group game\sep group game\lootdata.cpp(63): warning C4804: '<=' : unsafe use of type 'bool' in operation
+         HighScore.cpp
+     1>f:\user stuff\documents\visual studio projects\sep group game\sep group game\highscore.cpp(47): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
          Generating Code...
-     1>Done Building Project "C:\Users\Fabio\Documents\GitHub\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" (Build target(s)) -- FAILED.
+     1>Done Building Project "F:\User Stuff\Documents\Visual Studio Projects\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" (Rebuild target(s)) -- FAILED.
 
 Build FAILED.
 
-<<<<<<< HEAD
-Time Elapsed 00:00:01.25
-=======
-Time Elapsed 00:00:00.87
-=======
-﻿Build started 08/04/2015 17:43:10.
->>>>>>> master
-     1>Project "C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" on node 2 (Rebuild target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib SDL.lib SDLmain.lib SDL_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.lib" /MACHINE:X86 Debug\main.obj
-         SEP Group Game.vcxproj -> C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\Debug\SEP Group Game.exe
-     1>Done Building Project "C:\Users\Other\Documents\SEP-Group-Assignment\SEP Group Game\SEP Group Game\SEP Group Game.vcxproj" (Rebuild target(s)).
-
-Build succeeded.
-
-<<<<<<< HEAD
-Time Elapsed 00:00:06.14
-=======
-Time Elapsed 00:00:02.48
->>>>>>> 76d3c73355998d815b8148c0df427baa562653f7
->>>>>>> master
->>>>>>> master
+Time Elapsed 00:00:03.59
